@@ -75,7 +75,7 @@ df.columns = ['Operacao', 'Empresa', 'Pedido_Cliente', 'Pedido_Jund', 'Integraca
 df['Status'] = df['Status'].map({1: 'Em Fila', 4: 'Sucesso', 5: 'Insucesso', 10: 'Duplicidade'})
 
 ## Replace int values into string in Operacao column
-df['Operacao'] = df['Opereacao'].map({1: 'Claudio', 2: 'RSA', 3: 'LOJA CLARO', 4: 'VIRTUALZAP', 5: 'OI ECOMMERCE', 6: 'LOJA SAMSUNG VIP',
+df['Operacao'] = df['Operacao'].map({1: 'Claudio', 2: 'RSA', 3: 'LOJA CLARO', 4: 'VIRTUALZAP', 5: 'OI ECOMMERCE', 6: 'LOJA SAMSUNG VIP',
 7: 'ASSURANT', 8: 'WISEUP', 9: 'SAMSUNG VIP', 10: 'PORTAL OI - FRANQUIA', 11: 'PORTAL OI - VAREJO', 12: 'PORTLA OI - LOJAS PROPRIAS',
 13: 'LOJA CLARO', 14: 'LG INSIDERS', 15: 'STEFANINI', 16: 'B2W', 17: 'LOJA TIM', 18: 'CNOVA', 19: 'MERCADO LIVRE', 20: 'OI OMNI',
 21: 'PRC', 22: 'VIVO-MKT', 23: 'B2C-ACESS', 24: 'SIS', 25: 'TOKIO MARINE', 26: 'COMPRA FACILITADA', 27: 'INDEFINIDA', 28: 'SALESFORCE',
