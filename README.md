@@ -1,3 +1,3 @@
 # data
 
-Just and application that read some .tsv file process some data and generate a new file .xlsx.
+Just an application that read a .tsv file, process it and create a new file .xlsx with corrects values.
